@@ -1,16 +1,16 @@
 <script setup>
-import { ref, computed } from "vue";
-import { useStore } from "vuex";
+import { ref, computed } from 'vue'
+import { useStore } from 'vuex'
 
 defineProps({
-  msg: String,
-});
+  msg: String
+})
 
-const store = useStore();
+const store = useStore()
 
-const x = computed(() => store.state.x);
+const x = computed(() => store.state.x)
 
-const count = ref(0);
+const count = ref(0)
 </script>
 
 <template>
