@@ -12,7 +12,8 @@ My Vue setup with vite bundler.
 
 - [x] Add vue-router
 - [x] Add vuex
-- [ ] Linting and Formatting
+- [x] Linting and Formatting
 - [x] Add css pre-processor (scss)
+- [x] PWA Feature
 - [ ] Add vue-use
 - [ ] Auto import vue, vuex, vue-router, vue-use
